@@ -148,13 +148,18 @@ html, body {
 // LEFT SIDE TOP-MID
 .mid-top {
 	display: flex;
+	padding: 20px 0 40px;
 	.left-side {
+		padding-right: 2%;
+		width: 90%;
 		h2 {
-
+			font-size: 2.5rem;
+			padding-bottom: 10px;
 		}
 
 		p {
-
+			font-size: 1.89rem;
+			line-height: 20px;
 		}
 	}
 }
@@ -163,24 +168,53 @@ html, body {
 // RIGHT SIDE TOP-MID
 .mid-top {
 	.right-side {
+		width: 100%;
 		h3 {
-
+			font-size: 2rem;
+			padding-bottom: 8px;
 		}
 
 		ul {
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			border-top: 1px solid black;
 			li {
-				
+				font-size: 1.5rem;
+				border-bottom: 1px solid black;
+				padding: 20px;
 			}
 		}
 	}
 }
 
-table {
-	border-collapse: collapse;
-	width: 100%;
-  th, td {
-	text-align: left;
-	padding: 8px;
-  }
+.bottom-mid {
+	h3 {
+		font-size: 2.5rem;
+		padding-bottom: 10px;
+	}
+
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		border-top: 1px solid #f2f2f2;
+		padding-top: 5px;
+		margin-bottom: 30px;
+	  th, td {
+		text-align: left;
+		padding: 15px;
+		font-size: 1.5rem;
+	  }
+	}
+	  tr:nth-child(even) {background-color: #f2f2f2;}
 }
-  tr:nth-child(even) {background-color: #f2f2f2;}
+
+footer {
+	background:#808080;
+	p	{
+		text-align: center;
+		padding: 20px 0 30px;
+		width: 100%;
+		font-size: 1.5rem;
+		color: white;
+	}
+}
